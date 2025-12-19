@@ -1,0 +1,90 @@
+{
+    "Name": "padrão2",
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterVertical": {
+                "State": "AAAA/wAAAAEAAAADAAAAHAAAAn0AAAAXAP////8BAAAAAgA=",
+                "Widgets": [
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAAEAAAAdQAABB8AAAA4AAAAewD/////AQAAAAEA",
+                            "Widgets": [
+                                {
+                                    "PlayerControls": {
+                                    }
+                                },
+                                {
+                                    "SeekBar": {
+                                        "ElapsedTotal": false,
+                                        "ShowLabels": true
+                                    }
+                                },
+                                {
+                                    "PlaylistControls": {
+                                    }
+                                },
+                                {
+                                    "VolumeControls": {
+                                        "Mode": 3
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAABFwAABDIA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterVertical": {
+                                        "State": "AAAA/wAAAAEAAAACAAABfQAAAPEA/////wEAAAACAA==",
+                                        "Widgets": [
+                                            {
+                                                "LibraryFilter": {
+                                                    "Artwork": 0,
+                                                    "Captions": 1,
+                                                    "Columns": "3",
+                                                    "Display": 0,
+                                                    "Group": "Default",
+                                                    "ID": "3e1ad518c8c74b10b07b044322bfc285",
+                                                    "Index": 0,
+                                                    "ShowSummary": true,
+                                                    "State": "AAAAJXjaY2BgYAQiJgYwDQaM9h+gDKgAAwAUBgE3"
+                                                }
+                                            },
+                                            {
+                                                "ArtworkPanel": {
+                                                    "CoverAlignment": 132,
+                                                    "CoverType": 0,
+                                                    "KeepAspectRatio": true
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Playlist": {
+                                        "Columns": "8:132|0:2|1|7:2|2|5",
+                                        "HeaderState": "AAAAdXjaY2BgYGNgYJAGYhkGBsZrQNoISPMD6ccMEDkQYARiFiBmAmJWIGYGydnP3GcWsXreAftZm7yDKsUy7O+w7OAsEHpgv/zl7sbyb7/sLxjIXZ490cf+NO9lAzVld5AhDP+BAADijhyk",
+                                        "ID": "81f402a1783e4b5f8908a95ebb6a61df",
+                                        "Preset": 0,
+                                        "SingleMode": false
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "StatusBar": {
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "WindowSize": {
+        "Height": 696,
+        "Width": 1366
+    }
+}

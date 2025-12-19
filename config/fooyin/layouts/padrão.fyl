@@ -1,0 +1,84 @@
+{
+    "Name": "padrão",
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterVertical": {
+                "State": "AAAA/wAAAAEAAAADAAAAHAAAAn0AAAAXAP////8BAAAAAgA=",
+                "Widgets": [
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAAEAAAAgAAABBQAAAA4AAAAewD/////AQAAAAEA",
+                            "Widgets": [
+                                {
+                                    "PlayerControls": {
+                                    }
+                                },
+                                {
+                                    "SeekBar": {
+                                        "ElapsedTotal": false,
+                                        "ShowLabels": true
+                                    }
+                                },
+                                {
+                                    "PlaylistControls": {
+                                    }
+                                },
+                                {
+                                    "VolumeControls": {
+                                        "Mode": 3
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAAA6AAABGEA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterVertical": {
+                                        "State": "AAAA/wAAAAEAAAACAAABfQAAAPEA/////wEAAAACAA==",
+                                        "Widgets": [
+                                            {
+                                                "LibraryTree": {
+                                                    "Grouping": 2,
+                                                    "ID": "05c1e18187ac464fb5fae4204fb05082",
+                                                    "State": "AAAAfHjaY2BgEOgva/nwQ9R3WfffefoFWTPWMzAwsAKxQM+6LZLOXd5/7WOtX1Ylvz4PEtthq29vtOwvx95Cg+0v1I/6gMSyrrMFWP9b+1PyU6SB3GfeMyCxJKfid2+zT9+Tvr9aYOesF70MWOwBAMjRM6M="
+                                                }
+                                            },
+                                            {
+                                                "ArtworkPanel": {
+                                                    "CoverAlignment": 132,
+                                                    "CoverType": 0,
+                                                    "KeepAspectRatio": true
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Playlist": {
+                                        "Columns": "1|7:2|2|5|22|23|24",
+                                        "HeaderState": "AAAAhXjaY2BgYGdgYDRkYGBwANL6QCwDZMcAsSwQizKA5RnYgJgViJkYIIAZiFmAmBEkb3/xxI3Izuqz9mtfvLQ5e6DK/uJCHimBgwvtL3TbHNxQ+9N+a6Zh2GTRLPvZXR9rV769aD95TXLkoVZvkGaG/0AAACIII1A=",
+                                        "ID": "81f402a1783e4b5f8908a95ebb6a61df",
+                                        "Preset": 0,
+                                        "SingleMode": false
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "StatusBar": {
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "WindowSize": {
+        "Height": 696,
+        "Width": 1366
+    }
+}

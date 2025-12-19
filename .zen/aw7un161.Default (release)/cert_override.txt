@@ -1,0 +1,5 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+necrobabes.com:443:	OID.2.16.840.1.101.3.4.2.1	DB:57:92:EF:AC:6D:57:70:C2:E0:FA:B4:92:03:33:BE:DA:92:2E:4B:B9:8E:58:9E:3E:8F:07:68:3C:5E:89:73	
+iportal.rio.rj.gov.br:443:	OID.2.16.840.1.101.3.4.2.1	5F:E4:2E:33:8C:33:41:6E:89:2F:FA:39:19:24:D4:12:3D:C2:52:FD:27:BA:54:B1:35:C5:E9:4B:B1:A6:0C:CF	
+cringe.seitan-ayoub.lol:443:	OID.2.16.840.1.101.3.4.2.1	AB:90:55:EB:09:11:61:00:2B:DD:31:78:B5:FF:52:55:95:B0:C8:DC:76:3C:B2:66:1F:E0:D9:36:07:D0:A5:51	

@@ -1,0 +1,4 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+sci-hub.world:443:	OID.2.16.840.1.101.3.4.2.1	1C:71:CF:B1:AA:C0:7D:E2:1F:1A:8D:DB:83:DC:E5:95:7A:53:42:F4:FD:46:8D:08:47:9B:00:78:46:38:A9:C0	
+www.fxinstagram.com:443:	OID.2.16.840.1.101.3.4.2.1	2B:F2:51:CF:50:E5:87:DD:87:47:70:F5:47:5E:D5:A0:70:42:35:EB:AB:B1:A3:68:26:5B:02:B5:52:DA:C1:D9	
