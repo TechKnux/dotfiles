@@ -1,0 +1,15 @@
+input {
+    keyboard {
+        repeat-delay 300
+        repeat-rate 30
+        numlock
+    }
+
+    mouse {
+         accel-profile "flat"
+    }
+    
+    focus-follows-mouse // Automatically focus windows under the mouse pointer
+
+}
+

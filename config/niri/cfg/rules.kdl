@@ -1,0 +1,105 @@
+// Open Zen Browser picture-in-picture player as floating by default.
+window-rule {
+    match app-id=r#"zen$"# title="^Picture-in-Picture$"
+    open-floating true
+    open-focused false
+    default-floating-position x=32 y=32 relative-to="bottom-right"
+    open-maximized-to-edges false
+}
+
+// Extensions as floating
+window-rule {
+    match app-id=r#"zen$"# title="^Extensão: (Bitwarden Gerenciador de Senhas) - Bitwarden — Zen Browser$"
+    open-floating true
+}
+
+// Block out password managers from screen capture.
+window-rule {
+    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+    match app-id=r#"^org\.gnome\.World\.Secrets$"#
+    match app-id=r#"bitwarden-desktop$"#
+    match app-id="io.ente.auth$"
+    block-out-from "screen-capture"
+
+    // Use this instead if you want them visible on third-party screenshot tools.
+    // block-out-from "screencast"
+}
+
+// Indicate screencasted windows with red colors.
+window-rule {
+    match is-window-cast-target=true
+
+    focus-ring {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+
+    border {
+        inactive-color "#7d0d2d"
+    }
+
+    shadow {
+        color "#7d0d2d70"
+    }
+
+    tab-indicator {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+}
+
+// Waydroid InputMethod window opening when virtual keyboard is disabled fix
+//window-rule{
+//    match title="InputMethod"
+//    open-focused false
+//}
+
+// Example: enable rounded corners for all windows.
+// (This example rule is commented out with a "/-" in front.)
+window-rule {
+    geometry-corner-radius 2
+    clip-to-geometry true
+}
+
+// Steam notifications to bottom-right corner
+window-rule {
+    match app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+    default-floating-position x=10 y=10 relative-to="bottom-right"
+    open-focused false
+    focus-ring {
+        off 
+    }
+}
+
+// Apps that start maximized
+window-rule {
+    match app-id="goofcord"
+    match app-id="zen"
+//    match app-id=""
+    
+}
+
+// Open apps on specific workspaces on startup
+window-rule{
+    match at-startup=true app-id="goofcord"
+    open-on-workspace "chat"
+}
+
+window-rule {
+    match at-startup=true app-id="zen"
+    open-on-workspace "general"
+    open-maximized-to-edges true
+}
+
+window-rule{
+    match at-startup=true app-id="com.google.Chrome"
+    match at-startup=true app-id="br.gov.saude.acs"
+    open-on-workspace "work"
+}
+
+window-rule {
+    match at-startup=true app-id="lutris"
+    match at-startup=true app-id="steam"
+    open-on-workspace "games"
+}
+
