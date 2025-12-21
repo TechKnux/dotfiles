@@ -53,19 +53,19 @@ white = "0xECEFF4"
 size = 12
 
 [font.normal]
-family = "monospace"
+family = "CodeNewRoman Nerd Font Mono"
 style = "Regular"
 
 [font.bold]
-family = "monospace"
+family = "CodeNewRoman Nerd Font Mono"
 style = "Bold"
 
 [font.italic]
-family = "monospace"
+family = "CodeNewRoman Nerd Font Mono"
 style = "Italic"
 
 [font.bold_italic]
-family = "monospace"
+family = "CodeNewRoman Nerd Font Mono"
 style = "Bold Italic"
 
 [selection]

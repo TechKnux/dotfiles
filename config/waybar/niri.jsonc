@@ -8,7 +8,7 @@
     
     "modules-left": [ "niri/workspaces", "custom/media", "cffi/niri_window_buttons", ],
     "modules-center": [ "niri/window", ],
-    "modules-right": ["mpd", "custom/weather", "cpu", "memory", "pulseaudio", "backlight", "network", "niri/language", "clock", "custom/power" ],
+    "modules-right": ["mpd", "custom/weather", "cpu", "memory", "pulseaudio", "backlight", "network", "niri/language", "clock", "custom/power", ],
 
     // Modules configuration
     "niri/workspaces": {
@@ -24,20 +24,18 @@
 
             //Icons by state
             "urgent": "",
-   //          "focused": "",
-   //          "default": ""
         }
     },
 
     "cffi/niri_window_buttons": {
     "module_path": "/usr/lib/waybar/libniri_window_buttons.so",
-    "only_current_workspace": false,
-    "show_window_titles": true,
+    "only_current_workspace": true,
+    "show_window_titles": false,
     "icon_size": 24,
     "icon_spacing": 6,
-    "min_button_width": 150,
-    "max_button_width": 235,
-    "max_taskbar_width": 1200,
+    "min_button_width": 32,
+    "max_button_width": 32,
+    "max_taskbar_width": 200,
     "click_actions": {
       "left_click_unfocused": "focus-window",
       "left_click_focused": "maximize-column",
@@ -51,15 +49,17 @@
       {"label": "󰉩  Toggle Floating", "action": "toggle-window-floating"},
       {"label": "  Close Window", "action": "close-window"}
     ],
-    "ignore_rules": [],
+    "ignore_rules": [{"app_id": "zen", "title_contains": "Picture-in-Picture"},
+                    {"app_id": "steam", "title_regex": "^Friends List$"}
+    ],
     "notifications": {
       "enabled": true,
       "use_desktop_entry": true,
       "use_fuzzy_matching": false
     },
     "apps": {}
-  }
-}       
+    },
+       
     "niri/window":{
         "icon": false,
         "max-length":100,
@@ -177,7 +177,7 @@
         "format" : "⏻",
 		"tooltip": false,
 		"menu": "on-click",
-		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+		"menu-file": "$HOME/dotfiles/config/waybar/power_menu.xml", // Menu file in resources folder
 		"menu-actions": {
 			"shutdown": "systemctl poweroff",
 			"reboot": "systemctl reboot",

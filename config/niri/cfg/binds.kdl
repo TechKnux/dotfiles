@@ -11,7 +11,7 @@ binds {
     
     Mod+F1 hotkey-overlay-title="Pick Color" {spawn-sh "hyprpicker -a"; }
     Mod+F2 hotkey-overlay-title="Pick Emoji" {spawn "gnome-characters"; }
-    Mod+F3 hotkey-overlay-title="Reload Waybar" {spawn-sh "bash ~/.config/waybar/scripts/reload_waybar_niri.sh"; }    
+    Mod+F3 hotkey-overlay-title="Reload Waybar" {spawn-sh "$HOME/dotfiles/config/niri/scripts/reload_waybar.sh"; }    
 
    // Niri has a built-in screenshot tool in case you want to use it
    // Print { screenshot; }

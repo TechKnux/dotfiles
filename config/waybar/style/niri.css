@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: 'SF Pro Text', 'IPAexGothic',  'FiraMono Nerd Font Propo', FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'SF Pro Text', 'FiraMono Nerd Font Propo', 'Font Awesome', Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
 }
 
