@@ -1,0 +1,16 @@
+apple-fonts
+bibata-cursor-theme
+ente-auth-bin
+evhz-git
+goofcord-bin
+kwin-effects-forceblur
+linuxtoys-bin
+niri-float-sticky
+niri_window_buttons
+nouveau-fw
+nouveau-reclocking
+profile-sync-daemon-zen
+qt5ct-kde
+qt6ct-kde
+sunsetr
+wttrbar

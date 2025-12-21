@@ -1,0 +1,13 @@
+[StreamInputs]
+inputDevice=alsa_input.pci-0000_00_14.2.analog-stereo
+
+[StreamOutputs]
+outputDevice=alsa_output.pci-0000_00_14.2.analog-stereo
+plugins=convolver#0
+visiblePage=pluginsPage
+visiblePlugin=convolver#0
+
+[Window]
+autostartOnLogin=true
+height=696
+width=1366
