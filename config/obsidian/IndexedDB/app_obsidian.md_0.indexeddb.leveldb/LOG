@@ -1,2 +1,3 @@
-2025/12/19-23:34:22.908 12816 Creating DB /home/mmpc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb since it was missing.
-2025/12/19-23:34:22.914 12816 Reusing MANIFEST /home/mmpc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/21-22:55:58.802 746 Reusing MANIFEST /home/mmpc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/21-22:55:58.802 746 Recovering log #3
+2025/12/21-22:55:58.805 746 Reusing old log /home/mmpc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 

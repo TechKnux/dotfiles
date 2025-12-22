@@ -4,6 +4,8 @@ window-rule {
     open-floating true
     open-focused false
     default-floating-position x=32 y=32 relative-to="bottom-right"
+    default-column-width { fixed 480; }
+    default-window-height { fixed 270; }
     open-maximized-to-edges false
 }
 

@@ -78,6 +78,6 @@ ln -sf $path/config/waybar $HOME/.config/waybar
 [ ! -d $HOME/.local ] && mkdir -p $HOME/.local/share
 [ ! -d $HOME/.local/share ] && mkdir $HOME/.local/share
 [ -d $HOME/.local/share/applications ] && rm -rf $HOME/.local/share/applications
-ln -sf $path/.local/share/applications $HOME/.local/share/applications
+ln -sf $path/local/share/applications $HOME/.local/share/applications
 [ -d $HOME/.local/share/fonts ] && rm -r $HOME/.local/share/fonts
-ln -sf $path/.local/share/fonts $HOME/.local/share/fonts
+ln -sf $path/local/share/fonts $HOME/.local/share/fonts
