@@ -12,7 +12,7 @@ get_monitor_name() {
     elif [ -n "$WAYBAR_OUTPUT_NAME" ]; then
         echo "$WAYBAR_OUTPUT_NAME"
     else
-        niri msg outputs -j | jq -r '.[] | select(.focused == true) | .name'
+        niri msg -j focused-output | jq -r '.name'
     fi
 }
 
