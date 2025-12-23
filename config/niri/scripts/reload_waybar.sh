@@ -1,6 +1,6 @@
 #!/bin/bash
-  CONFIG=$HOME/dotfiles/config/waybar/niri.jsonc
-  STYLE=$HOME/dotfiles/config/waybar/style/niri.css
+  CONFIG=$HOME/.config/waybar/niri.jsonc
+  STYLE=$HOME/.config/waybar/style/niri.css
 
 
   killall -9 waybar

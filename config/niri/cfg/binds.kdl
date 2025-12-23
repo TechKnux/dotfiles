@@ -5,7 +5,7 @@ binds {
 
    // ─── Applications ───
     Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
-    Mod+E hotkey-overlay-title="Open File Explorer: Nautilus" { spawn "nautilus"; }
+    Mod+E hotkey-overlay-title="Open File Explorer: Thunar" { spawn "thunar"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     
