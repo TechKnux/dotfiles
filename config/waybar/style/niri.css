@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: 'SF Pro Text', 'FiraMono Nerd Font Propo', 'Font Awesome', Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'SF Pro Text', 'CodeNewRoman Nerd Font Propo', 'Font Awesome', Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -43,14 +43,14 @@ button {
 }
 
 #workspaces {
-    margin: 0 4px;
+    margin: 0 2px;
 }
 
 #workspaces button {
     padding: 0px 4px;
     background-color: transparent;
     border-width: 2px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 #workspaces button:hover {
