@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=GoofCord
-Exec=goofcord %U --enable-features=UseOzonePlatform --ozone-platform=auto
+Exec=goofcord %U
 Terminal=false
 Type=Application
 Icon=goofcord

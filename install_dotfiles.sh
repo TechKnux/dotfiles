@@ -65,6 +65,9 @@ ln -sf $path/config/nwg-look $HOME/.config/nwg-look
 [ -d $HOME/.config/obsidian ] && rm -rf $HOME/.config/obsidian
 ln -sf $path/config/obsidian $HOME/.config/obsidian
 
+[ -d $HOME/.config/pipewire ] && rm -rf $HOME/.config/pipewire
+ln -sf $path/config/pipewire $HOME/.config/pipewire
+
 [ -d $HOME/.config/qt5ct ] && rm -rf $HOME/.config/qt5ct
 ln -sf $path/config/qt5ct $HOME/.config/qt5ct
 
