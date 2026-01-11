@@ -124,7 +124,11 @@ button {
 }
 
 #network {
-   padding: 0 4px;
+    border-top: 6px;
+    border-bottom: 6px;
+    border-radius: 32px;
+    padding: 6px 6px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 #network.disconnected {
@@ -165,7 +169,11 @@ button {
 }
 
 #tray {
-    background-color: #2980b9;
+    border-top: 6px;
+    border-bottom: 6px;
+    border-radius: 32px;
+    padding: 6px 6px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 #tray > .passive {
@@ -195,9 +203,12 @@ button {
 }
 
 #language {
-    padding: 0 4px;
-    margin: 0 4px;
-    min-width: 17px;
+    border-top: 6px;
+    border-bottom: 6px;
+    border-radius: 32px;
+    padding: 6px 6px;
+    background: rgba(255, 255, 255, 0.3);
+    
 }
 
 #custom-power {

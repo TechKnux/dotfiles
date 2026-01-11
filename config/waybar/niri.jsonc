@@ -8,7 +8,7 @@
     
     "modules-left": [ "niri/workspaces", "custom/media", "cffi/niri_window_buttons", ],
     "modules-center": [ "niri/window", ],
-    "modules-right": [ "custom/weather", "cpu", "memory", "pulseaudio", "custom/brightness", "network", "niri/language", "clock", "custom/power", ],
+    "modules-right": [ "custom/weather", "cpu", "memory", "pulseaudio", "custom/brightness", "network", "niri/language", "tray", "clock", "custom/power", ],
 
     // Modules configuration
     "niri/workspaces": {
@@ -124,6 +124,15 @@
         "format-en": "🇺🇸",
         "format-jp": "̉̉🇯🇵",
         "format-pt": "🇧🇷",
+    },
+
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10,
+        "icons": {
+            "blueman": "bluetooth",
+            "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+        }
     },
 
     "backlight": {
