@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/lib/geoclue-2.0/demos/agent
+Icon=
+Name=agent
+Path=
+Terminal=False
+Type=Application
