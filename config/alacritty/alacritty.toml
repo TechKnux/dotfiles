@@ -7,7 +7,8 @@ dynamic_padding = true
 decorations = "full"
 title = "Alacritty@CachyOS"
 opacity = 0.8
-decorations_theme_variant = "Dark"
+blur = true
+decorations_theme_variant = "None"
 startup_mode = "Maximized"
 
 [window.dimensions]
@@ -73,7 +74,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 save_to_clipboard = true
 
 [cursor]
-style = "Underline"
+style = "Block"
 vi_mode_style = "None"
 unfocused_hollow = true
 thickness = 0.15

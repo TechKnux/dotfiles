@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=2.2.1
+Name=GoofCord
+Comment=GoofCord startup script
+Exec=goofcord
+StartupNotify=false
+Terminal=false
+Icon=goofcord
