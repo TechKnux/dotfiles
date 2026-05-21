@@ -1,26 +1,37 @@
 [Desktop Entry]
-Name=Zen Browser
-Comment=Experience tranquillity while browsing the web without people tracking you!
-Exec=/opt/zen-browser-bin/zen-bin %u
-Icon=zen-browser
-Type=Application
-MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
-StartupWMClass=zen
+Actions=new-window;new-blank-window;new-private-window;profilemanager;
 Categories=Network;WebBrowser;
-StartupNotify=true
-Terminal=false
-X-MultipleArgs=false
-Keywords=Internet;WWW;Browser;Web;Explorer;
-Actions=new-window;new-private-window;profilemanager;
-
-[Desktop Action new-window]
-Name=Open a New Window
+Comment=A fast, private and secure web browser built to improve your day-to-day experience.
 Exec=/opt/zen-browser-bin/zen-bin %u
+GenericName[pt_BR]=Navegador web
+GenericName=Web Browser
+Icon=zen-browser
+Keywords[pt_BR]=Internet;WWW;Browser;Web;Explorer;Navegador;
+Keywords=Internet;WWW;Browser;Web;Explorer;
+MimeType=application/json;application/pdf;application/rdf+xml;application/rss+xml;application/x-xpinstall;application/xhtml+xml;application/xml;audio/flac;audio/ogg;audio/webm;image/avif;image/gif;image/jpeg;image/png;image/svg+xml;image/webp;text/html;text/xml;video/ogg;video/webm;x-scheme-handler/chrome;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/mailto;
+Name=Zen Browser
+StartupNotify=true
+StartupWMClass=zen
+Terminal=false
+Type=Application
+X-MultipleArgs=false
+
+[Desktop Action new-blank-window]
+Exec=/opt/zen-browser-bin/zen-bin --blank-window %u
+Name[pt_BR]=Nova janela em branco
+Name=New Blank Window
 
 [Desktop Action new-private-window]
-Name=Open a New Private Window
 Exec=/opt/zen-browser-bin/zen-bin --private-window %u
+Name[pt_BR]=Nova janela privativa
+Name=New Private Window
+
+[Desktop Action new-window]
+Exec=/opt/zen-browser-bin/zen-bin %u
+Name[pt_BR]=Nova janela
+Name=New Window
 
 [Desktop Action profilemanager]
-Name=Open the Profile Manager
 Exec=/opt/zen-browser-bin/zen-bin --ProfileManager %u
+Name[pt_BR]=Abrir gerenciador de perfis
+Name=Open Profile Manager

@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=GoofCord
+Categories=Network;
+Comment=Take control of your Discord experience with GoofCord – the highly configurable and privacy-minded discord client.
 Exec=goofcord %U
+GenericName=Internet Messenger
+Icon=goofcord
+Keywords=discord;goofcord;
+Name=GoofCord
+StartupWMClass=GoofCord
 Terminal=false
 Type=Application
-Icon=goofcord
-StartupWMClass=GoofCord
-GenericName=Internet Messenger
-Categories=Network;
-Keywords=discord;goofcord;
-Comment=Take control of your Discord experience with GoofCord – the highly configurable and privacy-minded discord client.
