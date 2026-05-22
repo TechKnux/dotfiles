@@ -26,6 +26,9 @@ ln -sf $path/config/fish $HOME/.config/fish
 [ -d $HOME/.config/flameshot ] && rm -rf $HOME/.config/flameshot
 ln -sf $path/config/flameshot $HOME/.config/flameshot
 
+[ -d $HOME/.config/foot ] && rm -rf $HOME/.config/foot
+ln -sf $path/config/foot $HOME/.config/foot
+
 [ -d $HOME/.config/fooyin ] && rm -rf $HOME/.config/fooyin
 ln -sf $path/config/fooyin $HOME/.config/fooyin
 

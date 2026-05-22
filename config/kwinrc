@@ -6,8 +6,8 @@ Rows=1
 [Effect-better-blur-dx]
 BlurDocks=true
 BlurMenus=true
-BlurStrength=4
-WindowClasses=zen\nalacritty
+BlurStrength=5
+WindowClasses=zen\nfoot
 
 [NightColor]
 Active=true
