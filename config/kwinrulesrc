@@ -1,0 +1,12 @@
+[3577936f-d1c5-428a-b96c-da448db9fb27]
+Description=PiP
+above=true
+aboverule=2
+title=Picture-in-Picture
+titlematch=1
+wmclass=zen-bin zen
+wmclassmatch=1
+
+[General]
+count=1
+rules=3577936f-d1c5-428a-b96c-da448db9fb27

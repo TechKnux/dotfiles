@@ -38,8 +38,8 @@ ln -sf $path/config/helix $HOME/.config/helix
 [ -d $HOME/.config/Kvantum ] && rm -rf $HOME/.config/Kvantum
 ln -sf $path/config/Kvantum $HOME/.config/Kvantum
 
-[ -d $HOME/.config/libreoffice ] && rm -rf $HOME/.config/libreoffice
-ln -sf $path/config/libreoffice $HOME/.config/libreoffice
+#[ -d $HOME/.config/libreoffice ] && rm -rf $HOME/.config/libreoffice
+#ln -sf $path/config/libreoffice $HOME/.config/libreoffice
 
 [ -d $HOME/.config/mako ] && rm -rf $HOME/.config/mako
 ln -sf $path/config/mako $HOME/.config/mako
@@ -77,10 +77,32 @@ ln -sf $path/config/qt6ct $HOME/.config/qt6ct
 [ -d $HOME/.config/waybar ] && rm -rf $HOME/.config/waybar
 ln -sf $path/config/waybar $HOME/.config/waybar
 
+[ -e $HOME/.config/kglobalshortcutsrc ] && rm -rf $HOME/.config/kglobalshortcutsrc
+ln -sf $path/config/kglobalshortcutsrc $HOME/.config/kglobalshortcutsrc
+
+[ -e $HOME/.config/kwinrc ] && rm -rf $HOME/.config/kwinrc
+ln -sf $path/config/kwinrc $HOME/.config/kwinrc
+
+[ -e $HOME/.config/kwinrulesrc ] && rm -rf $HOME/.config/kwinrulesrc
+ln -sf $path/config/kwinrulesrc $HOME/.config/kwinrulesrc
+
+[ -e $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc ] && rm -rf $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
+ln -sf $path/config/plasma-org.kde.plasma.desktop-appletsrc $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+[ -e $HOME/.config/plasmashellrc ] && rm -rf $HOME/.config/plasmashellrc
+ln -sf $path/config/plasmashellrc $HOME/.config/plasmashellrc
+
+[ -e $HOME/.config/powerdevilrc ] && rm -rf $HOME/.config/powerdevilrc
+ln -sf $path/config/powerdevilrc $HOME/.config/powerdevilrc
+
+[ -e $HOME/.config/powermanagementprofilesrc ] && rm -rf $HOME/.config/powermanagementprofilesrc
+ln -sf $path/config/powermanagementprofilesrc $HOME/.config/powermanagementprofilesrc
+
+[ -d $HOME/.config/xsettingsd ] && rm -rf $HOME/.config/xsettingsd
+ln -sf $path/config/xsettingsd $HOME/.config/xsettingsd
+
 # Local directory
 [ ! -d $HOME/.local ] && mkdir -p $HOME/.local/share
 [ ! -d $HOME/.local/share ] && mkdir $HOME/.local/share
-[ -d $HOME/.local/share/applications ] && rm -rf $HOME/.local/share/applications
-ln -sf $path/local/share/applications $HOME/.local/share/applications
 [ -d $HOME/.local/share/fonts ] && rm -r $HOME/.local/share/fonts
 ln -sf $path/local/share/fonts $HOME/.local/share/fonts
