@@ -9,7 +9,6 @@ _k_friendly_name=Seletor de layouts de teclado
 
 [goofcord]
 Toggle Mute=CapsLock,none,Toggle Mute
-Unassigned=,none,Unassigned
 _k_friendly_name=GoofCord
 
 [kaccess]
@@ -24,7 +23,7 @@ decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminui o volume em 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
 increase_volume=Volume Up,Volume Up,Aumentar volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumenta o volume em 1%
-mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Silenciar microfone
+mic_mute=Shift+CapsLock\tMeta+Volume Mute\tMicrophone Mute,Microphone Mute\tMeta+Volume Mute,Silenciar microfone
 mute=Volume Mute,Volume Mute,Silenciar
 
 [ksmserver]
@@ -271,7 +270,3 @@ toggle do not disturb=,,Alternar o "Não perturbe"
 
 [services][foot.desktop]
 _launch=Meta+Return
-
-[services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=
-OpenWithoutScreenshot=

@@ -43,7 +43,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][23][Applets][26][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:goofcord.desktop,preferred://browser,preferred://filemanager
+launchers=applications:goofcord.desktop,preferred://browser,applications:com.google.Chrome.desktop
 
 [Containments][23][Applets][27]
 immutability=1
