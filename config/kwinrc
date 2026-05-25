@@ -6,7 +6,7 @@ Rows=1
 [Effect-better-blur-dx]
 BlurDocks=true
 BlurMenus=true
-BlurStrength=5
+BlurStrength=8
 WindowClasses=zen\nfoot
 
 [NightColor]
@@ -16,6 +16,10 @@ NightTemperature=3100
 [Plugins]
 better_blur_dxEnabled=true
 blurEnabled=false
+
+[Tiling][518e9dc2-cb88-4975-be25-aa3337c535c9][da36682c-4437-47bc-abf5-b3cc5524ab57]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][518e9dc2-cb88-4975-be25-aa3337c535c9][e45be58c-44ec-4cc8-a712-186f66c5766a]
 padding=4

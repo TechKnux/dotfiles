@@ -121,7 +121,7 @@ DialogWidth=810
 
 [Containments][23][Applets][28][General]
 extraItems=org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.kscreen
-hiddenItems=org.kde.plasma.bluetooth,org.kde.kscreen,Easy Effects
+hiddenItems=org.kde.plasma.bluetooth,org.kde.kscreen,Easy Effects,flameshot
 knownItems=org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.weather,org.kde.plasma.keyboardindicator
 
 [Containments][23][Applets][38]
@@ -131,6 +131,14 @@ plugin=org.kde.plasma.digitalclock
 [Containments][23][Applets][38][Configuration]
 popupHeight=400
 popupWidth=560
+
+[Containments][23][Applets][38][Configuration][Appearance]
+selectedTimeZones=America/Los_Angeles,America/New_York,Local,Europe/London,Asia/Tokyo
+wheelChangesTimezone=true
+
+[Containments][23][Applets][38][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][23][Applets][46]
 immutability=1
@@ -190,6 +198,15 @@ activityId=2be55fb9-cdb5-4c84-b093-a1d3dcb5bd59
 formfactor=0
 immutability=1
 lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][50]
+activityId=2be55fb9-cdb5-4c84-b093-a1d3dcb5bd59
+formfactor=0
+immutability=1
+lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
