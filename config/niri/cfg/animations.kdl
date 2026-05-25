@@ -30,3 +30,46 @@ animations {
          spring damping-ratio=1.0 stiffness=900 epsilon=0.0001
      }
 }
+
+////////////////
+//Blur windows//
+////////////////
+ 
+blur {
+    passes 2
+    offset 3
+    noise 0.02
+    saturation 1.5
+}
+
+window-rule {
+    match app-id="^foot$"
+  
+    background-effect {
+        blur true
+    }
+}
+
+window-rule {
+    match app-id="^zen$"
+  
+    background-effect {
+        blur true
+    }
+}
+
+layer-rule {
+    match namespace="^launcher$"
+
+    background-effect {
+        blur true
+    }
+}
+
+layer-rule {
+    match namespace="^waybar$"
+  
+    background-effect {
+        blur true
+    }
+}

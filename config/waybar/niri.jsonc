@@ -8,7 +8,7 @@
     
     "modules-left": [ "niri/workspaces", "custom/media", "cffi/niri_window_buttons", ],
     "modules-center": [ "niri/window", ],
-    "modules-right": [ "custom/weather", "cpu", "memory", "pulseaudio", "custom/brightness", "network", "niri/language", "tray", "clock", "custom/power", ],
+    "modules-right": [ "custom/weather", "cpu", "memory", "pulseaudio", "custom/brightness", "network", "niri/language", "tray", "clock", "battery", "custom/power", ],
 
     // Modules configuration
     "niri/workspaces": {
@@ -135,6 +135,15 @@
         }
     },
 
+"battery": {
+    //"bat": "BAT2",
+    "interval": 60,
+    "format": "{icon} {capacity}%",
+    "format-icons": {
+        "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+    }
+},
     "backlight": {
         "device": "/dev/i2c-0",
         "format": "{percent}% {icon}",

@@ -75,9 +75,9 @@ window-rule {
 
 // Apps that start maximized
 window-rule {
-    match app-id="goofcord"
-    match app-id="zen"
-//    match app-id=""
+    match app-id="^goofcord$"
+    match app-id="^zen$"
+    match app-id="^google-chrome$"
     
 }
 
@@ -94,14 +94,14 @@ window-rule {
 }
 
 window-rule{
-    match at-startup=true app-id="com.google.Chrome"
+    match at-startup=true app-id="google-chrome"
     match at-startup=true app-id="br.gov.saude.acs"
     open-on-workspace "work"
 }
 
 window-rule {
-    match at-startup=true app-id="lutris"
-    match at-startup=true app-id="steam"
+    match at-startup=true app-id="^lutris$"
+    match at-startup=true app-id="^steam$"
     open-on-workspace "games"
 }
 

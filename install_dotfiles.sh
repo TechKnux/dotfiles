@@ -35,6 +35,9 @@ ln -sf $path/config/fooyin $HOME/.config/fooyin
 [ -d $HOME/.config/fuzzel ] && rm -rf $HOME/.config/fuzzel
 ln -sf $path/config/fuzzel $HOME/.config/fuzzel
 
+[ -d $HOME/.config/gtk-3.0 ] && rm -rf $HOME/.config/gtk-3.0
+ln -sf $path/config/gtk-3.0 $HOME/.config/gtk-3.0
+
 [ -d $HOME/.config/helix ] && rm -rf $HOME/.config/helix
 ln -sf $path/config/helix $HOME/.config/helix
 
@@ -64,6 +67,9 @@ ln -sf $path/config/niri $HOME/.config/niri
 
 [ -d $HOME/.config/nwg-look ] && rm -rf $HOME/.config/nwg-look
 ln -sf $path/config/nwg-look $HOME/.config/nwg-look
+
+[ -d $HOME/.config/noctalia ] && rm -rf $HOME/.config/noctalia
+ln -sf $path/config/noctalia $HOME/.config/noctalia
 
 [ -d $HOME/.config/obsidian ] && rm -rf $HOME/.config/obsidian
 ln -sf $path/config/obsidian $HOME/.config/obsidian

@@ -1,0 +1,7 @@
+output "eDP-1"{
+	position x=0 y=0
+}
+
+output "HDMI-A-2" {
+    position x=0 y=-768
+}
