@@ -43,16 +43,8 @@ blur {
 }
 
 window-rule {
-    match app-id="^foot$"
-  
-    background-effect {
-        blur true
-    }
-}
-
-window-rule {
     match app-id="^zen$"
-  
+    match app-id="^foot$"
     background-effect {
         blur true
     }
@@ -60,16 +52,24 @@ window-rule {
 
 layer-rule {
     match namespace="^launcher$"
-
+    match namespace="^waybar$"
+    match namespace="^notifications$"
     background-effect {
         blur true
     }
 }
 
 layer-rule {
-    match namespace="^waybar$"
-  
+    match namespace="^launcher$"
+    match namespace="^notifications$"
     background-effect {
-        blur true
+        xray false
+    }
+}
+
+window-rule {
+    match app-id="^steam_app_3241660$"
+    background-effect {
+        blur false
     }
 }

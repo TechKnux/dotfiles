@@ -57,7 +57,7 @@ window-rule {
 //}
 
 // Example: enable rounded corners for all windows.
-// (This example rule is commented out with a "/-" in front.)
+// This example rule is commented out with a "/-" in front.)
 window-rule {
     geometry-corner-radius 2
     clip-to-geometry true
@@ -76,32 +76,35 @@ window-rule {
 // Apps that start maximized
 window-rule {
     match app-id="^goofcord$"
-    match app-id="^zen$"
+    match app-id="zen"
+    exclude title="Picture-in-Picture"
     match app-id="^google-chrome$"
-    
+    match app-id="^steam$"
+    exclude title="Lista de amigos"
+    exclude title="Steam — Configurações"
+    open-maximized-to-edges true
 }
 
 // Open apps on specific workspaces on startup
 window-rule{
-    match at-startup=true app-id="goofcord"
+    match app-id="^goofcord$"
     open-on-workspace "chat"
 }
 
-window-rule {
-    match at-startup=true app-id="zen"
-    open-on-workspace "general"
-    open-maximized-to-edges true
-}
-
 window-rule{
-    match at-startup=true app-id="google-chrome"
-    match at-startup=true app-id="br.gov.saude.acs"
+    match app-id="^google-chrome$"
+    match app-id="^br.gov.saude.acs$"
     open-on-workspace "work"
 }
 
 window-rule {
-    match at-startup=true app-id="^lutris$"
-    match at-startup=true app-id="^steam$"
+    match app-id="^zen$"
+    open-on-workspace "browser"
+}
+
+window-rule {
+    match app-id="^lutris$"
+    match app-id="^steam$"
     open-on-workspace "games"
 }
 

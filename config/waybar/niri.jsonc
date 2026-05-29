@@ -2,13 +2,13 @@
 {
     "layer": "top", // Waybar at top layer
    // "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 34, // Waybar height (to be removed for auto height)
+    "height": 36, // Waybar height (to be removed for auto height)
     
     "spacing": 2, 
     
     "modules-left": [ "niri/workspaces", "custom/media", "cffi/niri_window_buttons", ],
     "modules-center": [ "niri/window", ],
-    "modules-right": [ "custom/weather", "cpu", "memory", "pulseaudio", "custom/brightness", "network", "niri/language", "tray", "clock", "battery", "custom/power", ],
+    "modules-right": [ "custom/weather", "cpu", "memory", "tray", "backlight", "pulseaudio", "battery", "network", "niri/language", "clock", "custom/power", ],
 
     // Modules configuration
     "niri/workspaces": {
@@ -17,10 +17,9 @@
         "format-icons": {
             //Named Workspaces
             "chat": "",
-            "general": "",
             "work": "󰃖",
+            "browser": "",
             "games": "",
-   //          "5": "",
 
             //Icons by state
             "urgent": "",
@@ -28,41 +27,43 @@
     },
 
     "cffi/niri_window_buttons": {
-    "module_path": "/usr/lib/waybar/libniri_window_buttons.so",
-    "only_current_workspace": true,
-    "show_window_titles": false,
-    "icon_size": 24,
-    "icon_spacing": 6,
-    "min_button_width": 32,
-    "max_button_width": 32,
-    "max_taskbar_width": 200,
-    "click_actions": {
-      "left_click_unfocused": "focus-window",
-      "left_click_focused": "maximize-column",
-      "double_click": "maximize-window-to-edges",
-      "right_click": "menu",
-      "middle_click": "close-window"
-    },
-    "context_menu": [
-      {"label": "  Maximize Column", "action": "maximize-column"},
-      {"label": "  Maximize to Edges", "action": "maximize-window-to-edges"},
-      {"label": "󰉩  Toggle Floating", "action": "toggle-window-floating"},
-      {"label": "  Close Window", "action": "close-window"}
-    ],
-    "ignore_rules": [{"app_id": "zen", "title_contains": "Picture-in-Picture"},
-                    {"app_id": "steam", "title_regex": "^Friends List$"}
-    ],
-    "notifications": {
-      "enabled": true,
-      "use_desktop_entry": true,
-      "use_fuzzy_matching": false
-    },
-    "apps": {}
+        "module_path": "/usr/lib/waybar/libniri_window_buttons.so",
+        "only_current_workspace": true,
+        "show_window_titles": false,
+        "icon_size": 24,
+        "icon_spacing": 6,
+        "min_button_width": 32,
+        "max_button_width": 32,
+        "max_taskbar_width": 200,
+        "click_actions": {
+            "left_click_unfocused": "focus-window",
+            "left_click_focused": "maximize-column",
+            "double_click": "maximize-window-to-edges",
+            "right_click": "menu",
+            "middle_click": "close-window"
+        },
+        "context_menu": [
+            {"label": "  Maximize Column", "action": "maximize-column"},
+            {"label": "  Maximize to Edges", "action": "maximize-window-to-edges"},
+            {"label": "󰉩  Toggle Floating", "action": "toggle-window-floating"},
+            {"label": "  Close Window", "action": "close-window"}
+        ],
+        "ignore_rules": [
+            {"app_id": "zen", "title_contains": "Picture-in-Picture"},
+            {"app_id": "steam", "title_regex": "^Friends List$"}
+        ],
+        "notifications": {
+            "enabled": true,
+            "use_desktop_entry": true,
+            "use_fuzzy_matching": false
+        },
+        "apps": {}
     },
        
     "niri/window":{
-        "icon": false,
-        "max-length":100,
+        "separate-outputs": true,
+        "icon": true,
+        "max-length": 50,
         "rewrite": {
             "(.*) - Zen Browser": "zen",
             "^$": "Niri"
@@ -135,19 +136,19 @@
         }
     },
 
-"battery": {
+    "battery": {
     //"bat": "BAT2",
-    "interval": 60,
-    "format": "{icon} {capacity}%",
-    "format-icons": {
+        "interval": 60,
+        "format": "{icon} {capacity}%",
+        "format-icons": {
         "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
         "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
-    }
-},
+        }
+    },
     "backlight": {
-        "device": "/dev/i2c-0",
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+       /* "device": "/dev/i2c-0",*/
+        "format": " {percent}%"
+       /* "format-icons": ["", "", "", "", "", "", "", "", ""]*/
     },
 
     "custom/brightness": {
@@ -204,14 +205,14 @@
     },
     "custom/power": {
         "format" : "⏻",
-		"tooltip": false,
-		"menu": "on-click",
-		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
-		"menu-actions": {
-			"shutdown": "systemctl poweroff",
-			"reboot": "systemctl reboot",
-			"suspend": "systemctl suspend",
-			"hibernate": "systemctl hibernate"
-		}
+		    "tooltip": false,
+		    "menu": "on-click",
+		    "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+		    "menu-actions": {
+			      "Desligar": "systemctl poweroff",
+			      "Reiniciar": "systemctl reboot",
+			      "Suspender": "systemctl suspend",
+			      "Hibernar": "systemctl hibernate"
+		    }
     }
 }

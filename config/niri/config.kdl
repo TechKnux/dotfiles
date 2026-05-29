@@ -17,6 +17,7 @@ include "./cfg/rules.kdl"
 //////////
 
 cursor {
+    //xcursor-theme "Cottontail_CursorPack"
     xcursor-theme "Bibata-Modern-Classic"
     xcursor-size 24
 }
@@ -25,13 +26,21 @@ cursor {
 //Workspaces//
 //////////////
 
-workspace "chat"
+workspace "chat" {
+    open-on-output "eDP-1"
+}
 
-workspace "general"
+workspace "work" {
+    open-on-output "eDP-1"
+}
 
-workspace "work"
+workspace "browser" {
+    open-on-output "HDMI-A-2"
+}
 
-workspace "games"
+workspace "games"{
+    open-on-output "HDMI-A-2"
+}
 
 //////////////////
 //Recent Windows//

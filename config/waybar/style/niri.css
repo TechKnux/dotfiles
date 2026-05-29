@@ -1,16 +1,15 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: 'SF Pro Text', 'CodeNewRoman Nerd Font Propo', 'Font Awesome', Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: 'SF Pro Rounded', 'CodeNewRoman Nerd Font Propo', 'Font Awesome', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
     color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
-}
-
+    padding: 0 4px;
+    border-width: 2px;
+}    
 window#waybar.hidden {
     opacity: 0.2;
 }
@@ -33,14 +32,10 @@ button {
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
  button:hover {
-    background: inherit;
- }
+     }
 
 /* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    background: inherit;
-    background: rgba(0, 0, 0, 0.2);
-}
+
 
 #workspaces {
     margin: 0 2px;
@@ -88,10 +83,8 @@ button {
 }
 
 #clock {
-    border-top: 6px;
-    border-bottom: 6px;
-    border-radius: 32px;
-    padding: 6px 6px;
+    border-radius: 8px;
+    padding: 0 4px;
     background: rgba(255, 255, 255, 0.3);       
 }
 
@@ -103,16 +96,37 @@ button {
 }
 
 #custom-weather {
-     padding: 0 4px;   
+     padding: 0 4px;
+     border-radius: 8px;  
+}
+#custom-weather:hover {
+    border-width: 2px;
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s;    
 }
 
 #cpu {
     padding: 0 4px;
-    color: #ffffff;
+    border-radius: 8px;
 }
+
+#cpu:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s;
+}
+
 
 #memory {
     padding: 0 4px;
+    border-radius: 8px;
+}
+
+#memory:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s; 
 }
 
 #disk {
@@ -120,29 +134,56 @@ button {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    padding: 0 4px;
+    border-radius: 8px;
+}
+
+#backlight:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s; 
 }
 
 #network {
-    border-top: 6px;
-    border-bottom: 6px;
-    border-radius: 32px;
-    padding: 6px 6px;
-    background: rgba(255, 255, 255, 0.3);
+    padding: 0 4px;
+    border-radius: 8px;  
+}
+
+#network:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s; 
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 #pulseaudio {
-    padding: 0 4px;
+    padding: 0px 4px;
     border-radius: 8px;
-    color: #ffffff;
 }
+
+#pulseaudio:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s;
+}
+
 #pulseaudio.muted {
     background-color: #90b1b1;
     color: #2a5c45;
+}
+
+#battery {
+    padding: 0 4px;
+    border-radius: 8px;
+}
+
+#battery:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s; 
 }
 
 #wireplumber {
@@ -155,9 +196,9 @@ button {
 }
 
 #custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
+    background-color: transparent;
+    padding: 0px 4px;
+    border-radius: 8px;
 }
 
 #custom-media.custom-spotify {
@@ -169,10 +210,8 @@ button {
 }
 
 #tray {
-    border-top: 6px;
-    border-bottom: 6px;
-    border-radius: 32px;
-    padding: 6px 6px;
+    border-radius: 8px;
+    padding: 0 4px;
     background: rgba(255, 255, 255, 0.3);
 }
 
@@ -203,22 +242,17 @@ button {
 }
 
 #language {
-    border-top: 6px;
-    border-bottom: 6px;
-    border-radius: 32px;
-    padding: 6px 6px;
-    background: rgba(255, 255, 255, 0.3);
-    
-}
+    border-radius: 8px; 
+    padding: 0 4px;
+    }      
 
 #custom-power {
-    padding: 0px 8px;
-    background-color: transparent;
-    border-width: 2px;
+    padding: 0 4px;
     border-radius: 8px;
-  }
+}
 
 #custom-power:hover {
-    border-width: 2px;
     background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s; 
 }

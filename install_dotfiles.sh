@@ -20,6 +20,9 @@ ln -sf $path/config/btop $HOME/.config/btop
 [ -d $HOME/.config/easyeffects ] && rm -rf $HOME/.config/easyeffects
 ln -sf $path/config/easyeffects $HOME/.config/easyeffects
 
+[ -d $HOME/.config/environment.d ] && rm -rf $HOME/.config/environment.d
+ln -sf $path/config/environment.d $HOME/.config/environment.d
+
 [ -d $HOME/.config/fish ] && rm -rf $HOME/.config/fish
 ln -sf $path/config/fish $HOME/.config/fish
 
@@ -37,6 +40,9 @@ ln -sf $path/config/fuzzel $HOME/.config/fuzzel
 
 [ -d $HOME/.config/gtk-3.0 ] && rm -rf $HOME/.config/gtk-3.0
 ln -sf $path/config/gtk-3.0 $HOME/.config/gtk-3.0
+
+[ -d $HOME/.config/gtk-4.0 ] && rm -rf $HOME/.config/gtk-4.0
+ln -sf $path/config/gtk-4.0 $HOME/.config/gtk-4.0
 
 [ -d $HOME/.config/helix ] && rm -rf $HOME/.config/helix
 ln -sf $path/config/helix $HOME/.config/helix
@@ -113,5 +119,10 @@ ln -sf $path/config/xsettingsd $HOME/.config/xsettingsd
 # Local directory
 [ ! -d $HOME/.local ] && mkdir -p $HOME/.local/share
 [ ! -d $HOME/.local/share ] && mkdir $HOME/.local/share
+
 [ -d $HOME/.local/share/fonts ] && rm -r $HOME/.local/share/fonts
 ln -sf $path/local/share/fonts $HOME/.local/share/fonts
+
+[ -d $HOME/.local/share/icons ] && rm -r $HOME/.local/share/icons
+ln -sf $path/local/share/icons $HOME/.local/share/icons
+

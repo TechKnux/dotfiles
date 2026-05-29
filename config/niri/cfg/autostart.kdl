@@ -1,4 +1,5 @@
 spawn-at-startup "niri-float-sticky"
+//spawn-at-startup "niriusd"
 spawn-at-startup "sunsetr"
 spawn-at-startup "/usr/lib/xdg-desktop-portal-gnome"
 spawn-sh-at-startup "waybar -c $HOME/.config/waybar/niri.jsonc -s $HOME/.config/waybar/style/niri.css"

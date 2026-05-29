@@ -6,7 +6,12 @@ input {
     }
 
     mouse {
-         accel-profile "flat"
+        accel-profile "flat"
+            //middle-emulation
+    }
+
+    touchpad {
+        tap
     }
     
    // focus-follows-mouse // Automatically focus windows under the mouse pointer
