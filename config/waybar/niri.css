@@ -1,66 +1,24 @@
+/*@import "css/colors.css";
+@import "css/state.css";*/
+@import "css/workspace.css";
+/*@import "css/widget.css";
+@import "css/batt-clock.css";*/
+@import "css/slider.css";
+
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
+    margin: 0;
+    padding: 0;
+    min-height: 0px;
+    border: none;
+    border-radius: 8px;
     font-family: 'SF Pro Rounded', 'CodeNewRoman Nerd Font Propo', 'Font Awesome', Roboto, Helvetica, Arial, sans-serif;
     font-size: 15px;
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    color: #ffffff;
-    padding: 0 4px;
-    border-width: 2px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
 }    
-window#waybar.hidden {
-    opacity: 0.2;
-}
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
-
-button { 
-    /* Use box-shadow instead of border so the text isn't offset */
-    /* box-shadow: inset 0 -3px transparent;*/
-    /* Avoid rounded borders under each button name */
-   
-} 
-
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
- button:hover {
-     }
-
-/* you can set a style on hover for any module like this */
-
-
-#workspaces {
-    margin: 0 2px;
-}
-
-#workspaces button {
-    padding: 0px 4px;
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 4px;
-}
-
-#workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#workspaces button.active {
-    background: rgba(255, 255, 255, 0.3);
-    border-width: 2px;
-    border-color: white white;
-}
-
-#workspaces button.urgent {
-    background-color: #eb4d4b;
-}
 
 /*#cffi\.niri_window_buttons button { 
     padding: 34px 32px;
@@ -116,7 +74,6 @@ button {
     transition-property: background-color;
     transition-duration: .10s;
 }
-
 
 #memory {
     padding: 0 4px;
@@ -195,20 +152,6 @@ button {
     background-color: #f53c3c;
 }
 
-#custom-media {
-    background-color: transparent;
-    padding: 0px 4px;
-    border-radius: 8px;
-}
-
-#custom-media.custom-spotify {
-    background-color: #66cc99;
-}
-
-#custom-media.custom-vlc {
-    background-color: #ffa000;
-}
-
 #tray {
     border-radius: 8px;
     padding: 0 4px;
@@ -222,23 +165,6 @@ button {
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
     background-color: #eb4d4b;
-}
-
-#mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-    background-color: #f53c3c;
-}
-
-#mpd.stopped {
-    background-color: #90b1b1;
-}
-
-#mpd.paused {
-    background-color: #51a37a;
 }
 
 #language {

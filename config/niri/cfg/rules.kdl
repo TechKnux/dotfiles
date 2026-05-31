@@ -82,6 +82,7 @@ window-rule {
     match app-id="^steam$"
     exclude title="Lista de amigos"
     exclude title="Steam — Configurações"
+    exclude title="Ofertas especiais"
     open-maximized-to-edges true
 }
 

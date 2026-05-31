@@ -1,0 +1,26 @@
+{
+  "cpu": {
+    "tooltip": true,
+    "interval": 3,
+    "format": "󰍛",
+    "format-alt": "󰍛 <span size='11pt'>{usage}%</span>",
+    "states": {
+      "warning": 75,
+      "critical": 90
+    }
+  },
+  "temperature": {
+    "tooltip": false,
+    "interval": 3,
+    "thermal-zone": 8,
+    "critical-threshold": 80,
+    "format": "{icon}",
+    "format-alt": "{icon} <span size='11pt'>{temperatureC}°C</span>",
+    "format-critical": "<span size='12pt'>󱗗 </span><span size='11pt'>{temperatureC}°C</span>",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  }
+}

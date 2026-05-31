@@ -11,6 +11,9 @@ ln -sf $path/.gitconfig $HOME/.gitconfig
 [ -d $HOME/.config/alacritty ] && rm -rf $HOME/.config/alacritty
 ln -sf $path/config/alacritty $HOME/.config/alacritty
 
+[ -e $HOME/.config/asound.state ] && rm -rf $HOME/.config/asound.state
+ln -sf $path/config/asound.state $HOME/.config/asound.state
+
 [ -d $HOME/.config/autostart ] && rm -rf $HOME/.config/autostart
 ln -sf $path/config/autostart $HOME/.config/autostart
 

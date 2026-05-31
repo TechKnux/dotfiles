@@ -2,36 +2,12 @@
 <patchbay name="patchbay" version="1.0.2">
  <items>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
-   <input node="Equalizador (Microfone)" port="equalizer:input_FL"/>
+   <output node="Medidor do Nível de Saída" port="output_level:output_FR"/>
+   <input node="Easy Effects Source" port="Easy Effects Source:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
-   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FL"/>
-   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
-   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen-1" port="Zen:output_FR"/>
-   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen-1" port="Zen:output_FL"/>
-   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
-   <input node="Espectro-1" port="spectrum:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
-   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
+   <input node="Áudio interno Pro 7" port="HDMI 1:playback_AUX1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
@@ -42,40 +18,60 @@
    <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Medidor do Nível de Saída" port="output_level:output_FR"/>
-   <input node="Easy Effects Source" port="Easy Effects Source:input_FR"/>
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
-   <input node="Áudio interno Pro 7" port="HDMI 1:playback_AUX1"/>
+   <output node="Chromium-3" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Espectro-1" port="spectrum:output_FL"/>
-   <input node="Medidor do Nível de Saída-1" port="output_level:input_FL"/>
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
-   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
-   <input node="Equalizador (Microfone)" port="equalizer:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Medidor do Nível de Saída-1" port="output_level:output_FL"/>
-   <input node="Áudio interno Pro 7" port="HDMI 1:playback_AUX0"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
-   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Zen-1" port="Zen:output_FL"/>
-   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
+   <input node="Equalizador (Microfone)" port="equalizer:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FL"/>
-   <input node="Espectro-1" port="spectrum:input_FL"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
+   <input node="REPO.exe" port="REPO.exe:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
@@ -86,28 +82,48 @@
    <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
-   <input node="Áudio interno Pro 3" port="LG HD:playback_AUX1"/>
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Medidor do Nível de Saída-1" port="output_level:output_FL"/>
-   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX0"/>
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FL"/>
-   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FL"/>
+   <output node="Chromium-1" port="Chromium:output_FL"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Medidor do Nível de Saída" port="output_level:output_FL"/>
-   <input node="Easy Effects Source" port="Easy Effects Source:input_FL"/>
+   <output node="Zen-1" port="Zen:output_FR"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Redução de Ruído (Microfone)" port="rnnoise:output_FL"/>
-   <input node="Espectro" port="spectrum:input_FL"/>
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen-1" port="Zen:output_FL"/>
-   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FL"/>
+   <output node="Zen-1" port="Zen:output_FR"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FL"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
+   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FL"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-3" port="Chromium:output_FR"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Medidor do Nível de Saída-1" port="output_level:output_FL"/>
@@ -118,84 +134,36 @@
    <input node="Áudio interno Pro 9" port="HDMI 3:playback_AUX0"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FR"/>
+   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
    <input node="Áudio interno Pro 9" port="HDMI 3:playback_AUX1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Espectro" port="spectrum:output_FR"/>
-   <input node="Medidor do Nível de Saída" port="output_level:input_FR"/>
+   <output node="Zen-1" port="Zen:output_FL"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen" port="Zen:output_FR"/>
-   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
+   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FL"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
-   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Equalizador (Microfone)" port="equalizer:output_FR"/>
-   <input node="Redução de Ruído (Microfone)" port="rnnoise:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen-1" port="Zen:output_FR"/>
-   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Redução de Ruído (Microfone)" port="rnnoise:output_FR"/>
-   <input node="Espectro" port="spectrum:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Zen" port="Zen:output_FR"/>
-   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
-   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
-   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
-   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Equalizador (Microfone)" port="equalizer:output_FL"/>
-   <input node="Redução de Ruído (Microfone)" port="rnnoise:input_FL"/>
+   <output node="Medidor do Nível de Saída" port="output_level:output_FL"/>
+   <input node="Easy Effects Source" port="Easy Effects Source:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Zen" port="Zen:output_FL"/>
-   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
-   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FR"/>
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Espectro-1" port="spectrum:output_FR"/>
-   <input node="Medidor do Nível de Saída-1" port="output_level:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
-   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
-   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
-   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
-   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
-   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FL"/>
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Espectro" port="spectrum:output_FL"/>
@@ -206,7 +174,531 @@
    <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Espectro-1" port="spectrum:output_FR"/>
+   <input node="Medidor do Nível de Saída-1" port="output_level:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Equalizador (Microfone)" port="equalizer:output_FR"/>
+   <input node="Redução de Ruído (Microfone)" port="rnnoise:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-3" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen-1" port="Zen:output_FL"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
+   <input node="Controle de volume do PulseAudio-7" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FR"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen-1" port="Zen:output_FR"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
+   <input node="Controle de volume do PulseAudio-6" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
+   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
+   <input node="Equalizador (Microfone)" port="equalizer:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Espectro-1" port="spectrum:output_FL"/>
+   <input node="Medidor do Nível de Saída-1" port="output_level:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
+   <input node="Chromium input" port="Chromium input:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Estéreo analógico" port="ALC897 Analog:capture_FL"/>
+   <input node="Equalizador (Microfone)" port="equalizer:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Redução de Ruído (Microfone)" port="rnnoise:output_FL"/>
+   <input node="Espectro" port="spectrum:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FR"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
+   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Equalizador (Microfone)" port="equalizer:output_FL"/>
+   <input node="Redução de Ruído (Microfone)" port="rnnoise:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
+   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Redução de Ruído (Microfone)" port="rnnoise:output_FR"/>
+   <input node="Espectro" port="spectrum:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Estéreo analógico" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
+   <input node="Áudio interno Estéreo analógico" port="ALC897 Analog:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Estéreo analógico" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FL"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
+   <input node="Espectro-1" port="spectrum:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
+   <input node="Chromium input" port="Chromium input:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FL"/>
+   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
+   <input node="Áudio interno Pro 3" port="LG HD:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-3" port="Chromium:output_FL"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FL"/>
+   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
+   <input node="Áudio interno Pro 8" port="HDMI 2:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Estéreo analógico" port="ALC897 Analog:capture_FR"/>
+   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX1"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Espectro" port="spectrum:output_FR"/>
+   <input node="Medidor do Nível de Saída" port="output_level:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-15" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FL"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-15" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Estéreo analógico" port="ALC897 Analog:capture_FR"/>
+   <input node="Equalizador (Microfone)" port="equalizer:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FL"/>
+   <input node="Áudio interno Pro 8" port="HDMI 2:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FR"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Estéreo analógico" port="ALC897 Analog:capture_FL"/>
+   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FL"/>
+   <input node="Controle de volume do PulseAudio-12" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-13" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FL"/>
+   <input node="Áudio interno Estéreo analógico" port="ALC897 Analog:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FR"/>
+   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FL"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FL"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FR"/>
+   <input node="Controle de volume do PulseAudio-8" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FL"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 8 [Monitor]" port="HDMI 2:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:monitor_FR"/>
+   <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FR"/>
+   <input node="Controle de volume do PulseAudio-12" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
+   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FR"/>
+   <input node="Controle de volume do PulseAudio-11" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FL"/>
+   <input node="Espectro-1" port="spectrum:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen-1" port="Zen:output_FL"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Medidor do Nível de Saída-1" port="output_level:output_FL"/>
+   <input node="Áudio interno Pro 7" port="HDMI 1:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro [Monitor]" port="ALC897 Analog:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-13" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 9 [Monitor]" port="HDMI 3:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FR"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="REPO.exe" port="REPO.exe:output_FR"/>
+   <input node="Controle de volume do PulseAudio-1" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FR"/>
+   <input node="Controle de volume do PulseAudio-9" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Zen" port="Zen:output_FR"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX1"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="qsynth" port="qsynth:right"/>
+   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FL"/>
+   <input node="Controle de volume do PulseAudio-10" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FL"/>
+   <input node="Controle de volume do PulseAudio-6" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_FR"/>
+   <input node="Controle de volume do PulseAudio-3" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:capture_AUX0"/>
+   <input node="Controle de volume do PulseAudio-5" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="qsynth" port="qsynth:left"/>
+   <input node="Áudio interno Pro" port="ALC897 Analog:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FR"/>
+   <input node="REPO.exe" port="REPO.exe:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Sink" port="Easy Effects Sink:monitor_FR"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FR"/>
+  </item>
+  <item node-type="alsa" port-type="alsa-midi">
+   <output node="14:Midi Through" port="0:Midi Through Port-0"/>
+   <input node="129:FLUID Synth (28149)" port="0:Synth input port (28149:0)"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 7 [Monitor]" port="HDMI 1:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-2" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Easy Effects Source" port="Easy Effects Source:capture_FL"/>
+   <input node="Controle de volume do PulseAudio-7" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_FR"/>
+   <input node="Easy Effects Sink" port="Easy Effects Sink:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro 3 [Monitor]" port="LG HD:monitor_AUX0"/>
+   <input node="Controle de volume do PulseAudio-4" port="Controle de volume do PulseAudio:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Áudio interno Pro" port="ALC897 Analog:monitor_FL"/>
    <input node="Controle de volume do PulseAudio" port="Controle de volume do PulseAudio:input_FL"/>
   </item>
  </items>
