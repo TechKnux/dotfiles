@@ -1,4 +1,4 @@
 #!/bin/sh
 
-pacman -Qqen > pkglist.txt
-pacman -Qqem > pkglist_aur.txt 
+pacman -Qqen > pkglist_cachyos.txt
+pacman -Qqem > pkglist_cachyos_aur.txt 

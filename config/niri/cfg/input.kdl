@@ -6,8 +6,8 @@ input {
     }
 
     mouse {
+        accel-speed -0.70
         accel-profile "flat"
-            //middle-emulation
     }
 
     touchpad {

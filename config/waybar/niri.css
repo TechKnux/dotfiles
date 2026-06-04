@@ -75,6 +75,17 @@ window#waybar {
     transition-duration: .10s;
 }
 
+#temperature {
+    padding: 0 4px;
+    border-radius: 8px;
+}
+
+#temperature:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s;
+}
+
 #memory {
     padding: 0 4px;
     border-radius: 8px;

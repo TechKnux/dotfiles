@@ -92,6 +92,9 @@ ln -sf $path/config/qt5ct $HOME/.config/qt5ct
 [ -d $HOME/.config/qt6ct ] && rm -rf $HOME/.config/qt6ct
 ln -sf $path/config/qt6ct $HOME/.config/qt6ct
 
+[ -d $HOME/.config/stasis ] && rm -rf $HOME/.config/stasis
+ln -sf $path/config/stasis $HOME/.config/stasis
+
 [ -d $HOME/.config/waybar ] && rm -rf $HOME/.config/waybar
 ln -sf $path/config/waybar $HOME/.config/waybar
 

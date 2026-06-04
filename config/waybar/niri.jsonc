@@ -16,7 +16,8 @@
         "./modules/workspace.jsonc",
         "./modules/system.jsonc",
         "./modules/battery.jsonc",
-        "./modules/storage.jsonc"
+        "./modules/storage.jsonc",
+        "./modules/stasis.jsonc"
     ],
     "modules-left": [
         "niri/workspaces"
@@ -34,7 +35,8 @@
         "battery",
         "niri/language",
         "group/tray-group",
-        "clock"
+        "clock",
+        "custom/stasis"
     ],
 
     // Modules configuration
