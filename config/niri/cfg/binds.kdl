@@ -6,7 +6,7 @@ binds {
    // ─── Applications ───
     Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Mod+E hotkey-overlay-title="Open File Explorer: nautilus" { spawn "nautilus"; }
-    Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Mod+D hotkey-overlay-title="Run an Application: wofi" { spawn "wofi" "-i" "--show" "drun" "--allow-images"; }
     Mod+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     
     Mod+F1 hotkey-overlay-title="Pick Color" {spawn-sh "niri msg pick-color"; }

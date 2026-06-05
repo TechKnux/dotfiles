@@ -98,7 +98,14 @@ window#waybar {
 }
 
 #disk {
-    background-color: #964B00;
+    padding: 0 4px;
+    border-radius: 8px;
+}
+
+#disk:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s; 
 }
 
 #backlight {
@@ -118,6 +125,17 @@ window#waybar {
 }
 
 #network:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition-property: background-color;
+    transition-duration: .10s; 
+}
+
+#bluetooth {
+    padding: 0 6px;
+    border-radius: 8px;  
+}
+
+#bluetooth:hover {
     background: rgba(0, 0, 0, 0.2);
     transition-property: background-color;
     transition-duration: .10s; 

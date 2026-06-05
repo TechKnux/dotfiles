@@ -32,6 +32,9 @@ ln -sf $path/config/fish $HOME/.config/fish
 [ -d $HOME/.config/flameshot ] && rm -rf $HOME/.config/flameshot
 ln -sf $path/config/flameshot $HOME/.config/flameshot
 
+[ -d $HOME/.config/fastfetch ] && rm -rf $HOME/.config/fastfetch
+ln -sf $path/config/fastfetch $HOME/.config/fastfetch
+
 [ -d $HOME/.config/foot ] && rm -rf $HOME/.config/foot
 ln -sf $path/config/foot $HOME/.config/foot
 
@@ -94,6 +97,9 @@ ln -sf $path/config/qt6ct $HOME/.config/qt6ct
 
 [ -d $HOME/.config/stasis ] && rm -rf $HOME/.config/stasis
 ln -sf $path/config/stasis $HOME/.config/stasis
+
+[ -d $HOME/.config/swaylock ] && rm -rf $HOME/.config/swaylock
+ln -sf $path/config/swaylock $HOME/.config/swaylock
 
 [ -d $HOME/.config/waybar ] && rm -rf $HOME/.config/waybar
 ln -sf $path/config/waybar $HOME/.config/waybar

@@ -6,18 +6,18 @@
     "spacing": 2, 
     "include":[
         "./modules/groups.jsonc",
-        "./modules/connections.jsonc",
         "./modules/audio.jsonc",
         "./modules/clock.jsonc",
         "./modules/weather.jsonc",
-        "./modules/audio.jsonc",
         "./modules/tray-notif.jsonc",
         "./modules/language.jsonc",
         "./modules/workspace.jsonc",
         "./modules/system.jsonc",
         "./modules/battery.jsonc",
         "./modules/storage.jsonc",
-        "./modules/stasis.jsonc"
+        "./modules/stasis.jsonc",
+        "./modules/network.jsonc",
+        "./modules/bluetooth.jsonc"
     ],
     "modules-left": [
         "niri/workspaces"
@@ -31,7 +31,8 @@
         "group/storage",
         "group/system",
         "group/audio",
-        "group/connections",
+        "network",
+        "bluetooth",
         "battery",
         "niri/language",
         "group/tray-group",
