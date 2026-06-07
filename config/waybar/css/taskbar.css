@@ -1,0 +1,55 @@
+#taskbar {
+    margin-left: 4px;
+}
+
+#taskbar button {
+    background-color: transparent;
+}
+
+/*#taskbar button:first-child {
+    border-radius: 99px 0 0 99px;
+}
+
+#taskbar button:last-child {
+    border-radius: 0 99px 99px 0;
+}
+
+#taskbar button:first-child:last-child {
+    border-radius: 99px;
+}*/
+
+#taskbar button:hover {
+    background-color: rgba(49, 50, 68, 0.6);
+}
+
+#taskbar button.active {
+    background-color: rgba(3, 3, 3, 0.4);
+}
+
+#taskbar button.active:hover {
+    background-color: rgba(108, 112, 134, 0.6);
+}
+
+#cffi\.niri_window_buttons button {
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 200ms;
+}
+
+#cffi\.niri_window_buttons button.focused {
+  background: rgba(255, 255, 255, 0.3);
+  border-bottom: 3px solid #81a1c1;
+}
+
+#cffi\.niri_window_buttons button.selected {
+  background: rgba(136, 192, 208, 0.3);
+  border: 1px dashed #88c0d0;
+}
+
+#cffi\.niri_window_buttons button.urgent {
+  background: rgba(191, 97, 106, 0.4);
+}
+
+#cffi\.niri_window_buttons button.unread {
+  color: #ebcb8b;
+}

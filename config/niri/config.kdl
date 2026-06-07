@@ -26,7 +26,7 @@ cursor {
 //Workspaces//
 //////////////
 
-workspace "chat" {
+/* workspace "chat" {
     open-on-output "eDP-1"
 }
 
@@ -40,7 +40,7 @@ workspace "browser" {
 
 workspace "games"{
     open-on-output "HDMI-A-2"
-}
+}*/
 
 //////////////////
 //Recent Windows//

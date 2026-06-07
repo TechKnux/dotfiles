@@ -1,9 +1,12 @@
 {
   "niri/language": {
         "format": "{}",
-        "format-en": "🇺🇸",
+        "on-click": "niri msg action switch-layout next",
+       /* "format-en": "🇺🇸",
         "format-jp": "̉̉🇯🇵",
-        "format-pt": "🇧🇷",
+        "format-pt": "🇧🇷",*/
+        "format-en": "EN",
+        "format-jp": "JP",
+        "format-pt": "BR"
   }
 }
-

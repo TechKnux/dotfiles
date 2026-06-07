@@ -29,8 +29,7 @@
       },
     "modules": [
       "pulseaudio",
-      "pulseaudio/slider",
-      "pulseaudio#microphone"
+      "pulseaudio/slider"
     ]
   },
   "group/tray-group": {

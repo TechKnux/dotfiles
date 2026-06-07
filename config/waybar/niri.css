@@ -4,6 +4,7 @@
 /*@import "css/widget.css";
 @import "css/batt-clock.css";*/
 @import "css/slider.css";
+@import "css/taskbar.css";
 
 * {
     margin: 0;
@@ -12,7 +13,7 @@
     border: none;
     border-radius: 8px;
     font-family: 'SF Pro Rounded', 'CodeNewRoman Nerd Font Propo', 'Font Awesome', Roboto, Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 window#waybar {
@@ -51,6 +52,10 @@ window#waybar {
         background-color: #ffffff;
         color: #000000;
     }
+}
+
+#window {
+    font-size: 12px;
 }
 
 #custom-weather {
@@ -131,7 +136,7 @@ window#waybar {
 }
 
 #bluetooth {
-    padding: 0 6px;
+    padding: 0 4px;
     border-radius: 8px;  
 }
 
@@ -146,7 +151,7 @@ window#waybar {
 }
 
 #pulseaudio {
-    padding: 0px 4px;
+    padding: 0 4px;
     border-radius: 8px;
 }
 
@@ -154,6 +159,11 @@ window#waybar {
     background: rgba(0, 0, 0, 0.2);
     transition-property: background-color;
     transition-duration: .10s;
+}
+
+#pulseaudio#microphone {
+    padding: 0 4px;
+    border-radius: 8px;
 }
 
 #pulseaudio.muted {
@@ -210,4 +220,9 @@ window#waybar {
     background: rgba(0, 0, 0, 0.2);
     transition-property: background-color;
     transition-duration: .10s; 
+}
+
+#custom-stasis {
+    padding: 0 4px;
+    border-radius: 8px;  
 }

@@ -1,8 +1,7 @@
 // -*- mode: jsonc -*-
 {
-    "layer": "top", // Waybar at top layer
-   // "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 36, // Waybar height (to be removed for auto height)
+    "layer": "top",
+    "height": 36,
     "spacing": 2, 
     "include":[
         "./modules/groups.jsonc",
@@ -17,10 +16,17 @@
         "./modules/storage.jsonc",
         "./modules/stasis.jsonc",
         "./modules/network.jsonc",
-        "./modules/bluetooth.jsonc"
+        "./modules/bluetooth.jsonc",
+        "./modules/microphone.jsonc",
+        "./modules/backlight.jsonc",
+        "./modules/window.jsonc",
+        "./modules/taskbar.jsonc"
     ],
     "modules-left": [
-        "niri/workspaces"
+      //  "niri/workspaces",
+        "wlr/taskbar"
+       // "cffi/niri-taskbar",
+      // "cffi/niri_window_buttons"
     ],
     "modules-center": [
         "niri/window"
@@ -31,6 +37,7 @@
         "group/storage",
         "group/system",
         "group/audio",
+        "pulseaudio#microphone",
         "network",
         "bluetooth",
         "battery",
@@ -39,22 +46,4 @@
         "clock",
         "custom/stasis"
     ],
-
-    // Modules configuration
-     
-    "niri/window":{
-        "separate-outputs": true,
-        "icon": true,
-        "max-length": 50,
-        "rewrite": {
-            "(.*) - Zen Browser": "zen",
-            "^$": "Niri"
-        }
-    },
-              
-    "backlight": {
-       /* "device": "/dev/i2c-0",*/
-        "format": " {percent}%"
-       /* "format-icons": ["", "", "", "", "", "", "", "", ""]*/
-    }
 }  

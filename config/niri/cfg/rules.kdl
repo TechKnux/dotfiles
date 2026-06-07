@@ -87,7 +87,7 @@ window-rule {
 }
 
 // Open apps on specific workspaces on startup
-window-rule{
+/*  window-rule{
     match app-id="^goofcord$"
     open-on-workspace "chat"
 }
@@ -108,4 +108,4 @@ window-rule {
     match app-id="^steam$"
     open-on-workspace "games"
 }
-
+*/

@@ -1,0 +1,6 @@
+{
+   "backlight": {
+        "format": "{icon} <span size='12pt'>{percent}%</span>",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    }
+}
