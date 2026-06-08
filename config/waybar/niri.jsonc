@@ -23,8 +23,8 @@
         "./modules/taskbar.jsonc"
     ],
     "modules-left": [
-      //  "niri/workspaces",
-        "wlr/taskbar"
+        "niri/workspaces",
+        //        "wlr/taskbar"
        // "cffi/niri-taskbar",
       // "cffi/niri_window_buttons"
     ],

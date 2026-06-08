@@ -22,11 +22,12 @@
         "on-click-middle": "close",
         "on-click-right": "fullscreen"*/
 
-  "cffi/niri_window_buttons": {
+ /* "cffi/niri_window_buttons": {
     "module_path": "/usr/lib/waybar/libniri_window_buttons.so",
+
     // Display
     "only_current_workspace": true,
-    "show_window_titles": false,
+    "show_window_titles": true,
     "truncate_titles": true,
     "allow_title_linebreaks": false,
     "button_alignment": "left",
@@ -38,7 +39,7 @@
     "icon_spacing": 6,
     "min_button_width": 10,
     "max_button_width": 190,
-    "max_taskbar_width": 100,
+    "max_taskbar_width": 1210,
     "scroll_arrow_left": "",
     "scroll_arrow_right": "",
 
@@ -134,5 +135,5 @@
         }}
       ]
     }
-  }
+  }*/
 }

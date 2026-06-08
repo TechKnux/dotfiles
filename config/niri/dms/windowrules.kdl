@@ -1,0 +1,84 @@
+blur {
+    passes 2
+    offset 3
+    noise 0.02
+    saturation 1.5
+}
+
+window-rule {
+    match app-id="^zen$"
+    match app-id="^foot$"
+    background-effect {
+        blur true
+    }
+}
+
+layer-rule {
+    match namespace="^launcher$"
+    match namespace="^waybar$"
+    match namespace="^notifications$"
+    background-effect {
+        blur true
+    }
+}
+
+// Open Zen Browser picture-in-picture player as floating by default.
+window-rule {
+    match app-id=r#"zen$"# title="^Picture-in-Picture$"
+    open-floating true
+    open-focused false
+    default-floating-position x=32 y=32 relative-to="bottom-right"
+    default-column-width { fixed 480; }
+    default-window-height { fixed 270; }
+    open-maximized-to-edges false
+}
+
+// Block out password managers from screen capture.
+window-rule {
+    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+    match app-id=r#"^org\.gnome\.World\.Secrets$"#
+    match app-id=r#"bitwarden-desktop$"#
+    match app-id="io.ente.auth$"
+    block-out-from "screen-capture"
+
+    // Use this instead if you want them visible on third-party screenshot tools.
+    // block-out-from "screencast"
+}
+
+// Indicate screencasted windows with red colors.
+window-rule {
+    match is-window-cast-target=true
+
+    focus-ring {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+
+    border {
+        inactive-color "#7d0d2d"
+    }
+
+    shadow {
+        color "#7d0d2d70"
+    }
+
+    tab-indicator {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+}
+
+// Open apps on specific displays on startup
+window-rule {
+    match app-id="^google-chrome$"
+    match app-id="^br.gov.saude.acs$"
+    match app-id="^goofcord$"
+    open-on-output "eDP-1"
+}
+
+window-rule {
+    match app-id="^lutris$"
+    match app-id="^steam$"
+    match app-id="^zen$"
+    open-on-output "HDMI-A-2"
+}
