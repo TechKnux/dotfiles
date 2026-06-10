@@ -20,6 +20,9 @@ ln -sf $path/config/autostart $HOME/.config/autostart
 [ -d $HOME/.config/btop ] && rm -rf $HOME/.config/btop
 ln -sf $path/config/btop $HOME/.config/btop
 
+[ -d $HOME/.config/DankMaterialShell ] && rm -rf $HOME/.config/DankMaterialShell
+ln -sf $path/config/DankMaterialShell $HOME/.config/DankMaterialShell
+
 [ -d $HOME/.config/easyeffects ] && rm -rf $HOME/.config/easyeffects
 ln -sf $path/config/easyeffects $HOME/.config/easyeffects
 
