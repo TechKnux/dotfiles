@@ -5,3 +5,4 @@ config/fish/fish_variables*
 config/fish/functions/
 local/share/fonts/.uuid
 local/share/fonts/mscorefonts/.uuid
+config/obsidian

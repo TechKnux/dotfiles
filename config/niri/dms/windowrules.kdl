@@ -17,11 +17,21 @@ window-rule {
 window-rule {
     match app-id="^zen$"
     open-on-output "HDMI-A-2"
+    background-effect {
+        blur true
+    }
 }
 
 // @id=wr_1781041005070585898 @name=steam
 window-rule {
     match app-id="^steam$"
+    open-maximized true
+    open-on-output "HDMI-A-2"
+}
+
+// @id=wr_1781139255433961296 @name=net.lutris.Lutris
+window-rule {
+    match app-id="^net.lutris.Lutris$"
     open-maximized true
     open-on-output "HDMI-A-2"
 }
@@ -56,7 +66,7 @@ window-rule {
 window-rule {
     match app-id="^steam$" title="Lista de amigos"
     open-floating true
-    default-column-width { fixed 800; }
+    default-column-width { fixed 450; }
     default-window-height { fixed 600; }
 }
 
@@ -64,11 +74,16 @@ window-rule {
 window-rule {
     match app-id="^steam$" title="Ofertas especiais"
     open-floating true
+    default-column-width { fixed 800; }
+    default-window-height { fixed 720; }
 }
 
 // @id=dms_rule_10 @name=
 window-rule {
-    match app-id="^foot$"
+    match app-id="^Alacritty$"
+    background-effect {
+        blur true
+    }
 }
 
 // @id=wr_1781048468021805668 @name=zen

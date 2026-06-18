@@ -59,6 +59,9 @@ ln -sf $path/config/helix $HOME/.config/helix
 [ -d $HOME/.config/Kvantum ] && rm -rf $HOME/.config/Kvantum
 ln -sf $path/config/Kvantum $HOME/.config/Kvantum
 
+[ -d $HOME/.config/kitty ] && rm -rf $HOME/.config/kitty
+ln -sf $path/config/kitty $HOME/.config/kitty
+
 #[ -d $HOME/.config/libreoffice ] && rm -rf $HOME/.config/libreoffice
 #ln -sf $path/config/libreoffice $HOME/.config/libreoffice
 

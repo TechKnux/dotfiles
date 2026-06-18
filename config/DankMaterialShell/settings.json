@@ -3,7 +3,7 @@
   "currentThemeCategory": "dynamic",
   "customThemeFile": "",
   "registryThemeVariants": {},
-  "matugenScheme": "scheme-vibrant",
+  "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
   "popupTransparency": 1,
@@ -130,11 +130,11 @@
   "workspaceScrolling": false,
   "showWorkspaceApps": true,
   "workspaceDragReorder": true,
-  "maxWorkspaceIcons": 3,
+  "maxWorkspaceIcons": 99,
   "workspaceAppIconSizeOffset": 0,
   "groupWorkspaceApps": true,
   "workspaceFollowFocus": false,
-  "showOccupiedWorkspacesOnly": false,
+  "showOccupiedWorkspacesOnly": true,
   "reverseScrolling": false,
   "dwlShowAllTags": false,
   "workspaceColorMode": "default",
@@ -248,7 +248,7 @@
   "launcherLogoContrast": 1,
   "launcherLogoSizeOffset": 0,
   "fontFamily": "Inter Variable",
-  "monoFontFamily": "Fira Code",
+  "monoFontFamily": "CodeNewRoman Nerd Font Mono",
   "fontWeight": 400,
   "fontScale": 1,
   "notepadUseMonospace": true,
@@ -450,8 +450,14 @@
       ],
       "showOnLastDisplay": true,
       "leftWidgets": [
-        "launcherButton",
-        "workspaceSwitcher",
+        {
+          "id": "launcherButton",
+          "enabled": true
+        },
+        {
+          "id": "workspaceSwitcher",
+          "enabled": true
+        },
         {
           "id": "focusedWindow",
           "enabled": true
@@ -473,7 +479,8 @@
         },
         {
           "id": "memUsage",
-          "enabled": true
+          "enabled": true,
+          "showSwap": false
         },
         {
           "id": "notificationButton",
@@ -593,7 +600,11 @@
   "desktopWidgetGridSettings": {},
   "desktopWidgetInstances": [],
   "desktopWidgetGroups": [],
-  "builtInPluginSettings": {},
+  "builtInPluginSettings": {
+    "dms_settings_search": {
+      "trigger": "?"
+    }
+  },
   "clipboardEnterToPaste": false,
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],

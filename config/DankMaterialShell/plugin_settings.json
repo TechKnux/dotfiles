@@ -1,0 +1,15 @@
+{
+  "dankKDEConnect": {
+    "enabled": true
+  },
+  "dnsSwitcher": {
+    "enabled": true
+  },
+  "niriDS": {
+    "enabled": true
+  },
+  "dankLauncherKeys": {
+    "enabled": true,
+    "noTrigger": false
+  }
+}

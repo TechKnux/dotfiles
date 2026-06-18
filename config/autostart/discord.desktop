@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/mmpc/.config/discord/app-1.0.143/Discord
+Hidden=false
+NoDisplay=false
+Name=Discord
+Icon=/home/mmpc/.config/discord/app-1.0.143/discord.png
+Comment=Text and voice chat for gamers.
+X-GNOME-Autostart-enabled=true
