@@ -4,7 +4,7 @@ above=true
 aboverule=2
 title=Picture-in-Picture
 titlematch=1
-wmclass=zen-bin zen
+wmclass=zen zen
 wmclasscomplete=true
 wmclassmatch=1
 

@@ -25,7 +25,7 @@ gestures {
 input {
     keyboard {
         repeat-delay 300
-        repeat-rate 30
+        repeat-rate 25
         xkb {
 
         }

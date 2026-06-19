@@ -137,6 +137,12 @@ ln -sf $path/config/xsettingsd $HOME/.config/xsettingsd
 # Local directory
 [ ! -d $HOME/.local ] && mkdir -p $HOME/.local/share
 [ ! -d $HOME/.local/share ] && mkdir $HOME/.local/share
+[ ! -d $HOME/.local/share/dbus-1 ] && mkdir $HOME/.local/share/dbus-1
+[ ! -d $HOME/.local/share/dbus-1/services ] && mkdir $HOME/.local/share/dbus-1/services
+
+
+[ -e $HOME/.local/share/dbus-1/services/org.kde.plasma.Notifications.service ] && rm -r $HOME/.local/share/dbus-1/services/org.kde.plasma.Notifications.service 
+ln -sf /usr/share/dbus-1/services/org.kde.plasma.Notifications.service   $HOME/.local/share/dbus-1/services/org.kde.plasma.Notifications.service 
 
 [ -d $HOME/.local/share/fonts ] && rm -r $HOME/.local/share/fonts
 ln -sf $path/local/share/fonts $HOME/.local/share/fonts

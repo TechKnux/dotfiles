@@ -9,13 +9,18 @@ BlurMenus=true
 BlurStrength=8
 WindowClasses=zen\nfoot
 
+[Effect-blur]
+BlurStrength=8
+NoiseStrength=4
+
 [NightColor]
 Active=true
 NightTemperature=3100
 
 [Plugins]
 better_blur_dxEnabled=true
-blurEnabled=false
+blurEnabled=true
+shakecursorEnabled=false
 
 [Tiling][518e9dc2-cb88-4975-be25-aa3337c535c9][da36682c-4437-47bc-abf5-b3cc5524ab57]
 padding=4
@@ -27,8 +32,3 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Xwayland]
 Scale=1
-
-[org.kde.kdecoration2]
-NoPlugin=false
-library=org.kde.breeze
-theme=Breeze

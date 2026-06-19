@@ -43,7 +43,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][23][Applets][26][Configuration][General]
-launchers=applications:goofcord.desktop,preferred://browser,applications:com.google.Chrome.desktop
+launchers=preferred://browser,applications:discord.desktop,applications:com.google.Chrome.desktop
 
 [Containments][23][Applets][27]
 immutability=1
@@ -121,7 +121,7 @@ DialogWidth=810
 
 [Containments][23][Applets][28][General]
 extraItems=org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.kscreen
-hiddenItems=org.kde.plasma.bluetooth,org.kde.kscreen,Easy Effects,flameshot
+hiddenItems=org.kde.plasma.bluetooth,org.kde.kscreen,Easy Effects,flameshot,chrome_status_icon_1@electron,steam,chrome_status_icon_1@Discord
 knownItems=org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.weather,org.kde.plasma.keyboardindicator
 
 [Containments][23][Applets][38]
@@ -149,8 +149,8 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][23][Applets][47][Configuration]
-popupHeight=242
-popupWidth=234
+popupHeight=296
+popupWidth=337
 
 [Containments][23][Applets][47][Configuration][Appearance]
 showTemperatureInCompactMode=true
@@ -183,8 +183,59 @@ popupWidth=360
 [Containments][23][Applets][49][Configuration][General]
 showPercentage=true
 
+[Containments][23][Applets][55]
+immutability=1
+plugin=org.kde.plasma.systemmonitor
+
+[Containments][23][Applets][55][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
+popupHeight=195
+popupWidth=239
+
+[Containments][23][Applets][55][Configuration][Appearance]
+chartFace=org.kde.ksysguard.piechart
+title=Uso total da CPU
+
+[Containments][23][Applets][55][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][23][Applets][55][Configuration][SensorColors]
+cpu/all/usage=61,174,233
+
+[Containments][23][Applets][55][Configuration][Sensors]
+highPrioritySensorIds=["cpu/all/usage"]
+lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
+totalSensors=["cpu/all/usage"]
+
+[Containments][23][Applets][57]
+immutability=1
+plugin=org.kde.plasma.systemmonitor
+
+[Containments][23][Applets][57][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
+popupHeight=235
+popupWidth=230
+
+[Containments][23][Applets][57][Configuration][Appearance]
+chartFace=org.kde.ksysguard.piechart
+title=Uso da memória
+
+[Containments][23][Applets][57][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][23][Applets][57][Configuration][SensorColors]
+memory/physical/used=170,85,255
+memory/swap/used=233,61,117
+
+[Containments][23][Applets][57][Configuration][Sensors]
+highPrioritySensorIds=["memory/physical/used","memory/swap/used"]
+lowPrioritySensorIds=["memory/physical/total"]
+totalSensors=["memory/physical/usedPercent"]
+
 [Containments][23][General]
-AppletOrder=24;25;26;48;27;28;46;49;47;38
+AppletOrder=24;25;26;48;27;28;46;55;57;49;47;38
 
 [Containments][4][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/cachyos-wallpapers/north.png
