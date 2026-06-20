@@ -2,9 +2,11 @@
 Description=PiP
 above=true
 aboverule=2
+position=880,450
+positionrule=3
 title=Picture-in-Picture
 titlematch=1
-wmclass=zen zen
+wmclass=zen-bin zen
 wmclasscomplete=true
 wmclassmatch=1
 

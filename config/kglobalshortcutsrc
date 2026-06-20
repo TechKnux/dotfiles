@@ -23,7 +23,7 @@ decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminui o volume em 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
 increase_volume=Volume Up,Volume Up,Aumentar volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumenta o volume em 1%
-mic_mute=Microphone Mute\tShift+CapsLock\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Silenciar microfone
+mic_mute=Microphone Mute\tMeta+'\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Silenciar microfone
 mute=Volume Mute,Volume Mute,Silenciar
 push_to_talk=none,none,Pressione para falar
 

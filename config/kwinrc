@@ -7,7 +7,7 @@ Rows=1
 BlurDocks=true
 BlurMenus=true
 BlurStrength=8
-WindowClasses=zen\nfoot
+WindowClasses=zen\nfoot\nalacritty
 
 [Effect-blur]
 BlurStrength=8
@@ -19,7 +19,7 @@ NightTemperature=3100
 
 [Plugins]
 better_blur_dxEnabled=true
-blurEnabled=true
+blurEnabled=false
 shakecursorEnabled=false
 
 [Tiling][518e9dc2-cb88-4975-be25-aa3337c535c9][da36682c-4437-47bc-abf5-b3cc5524ab57]
